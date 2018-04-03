@@ -2,29 +2,53 @@
 一个更换64位系统为锐速内核的方便脚本
 
 ---
+### Ubuntu14.04更换内核
+
+```
+apt install -y wget && wget --no-check-certificate -O U14.sh https://raw.githubusercontent.com/xratzh/XRSK/master/U14.sh && bash U14.sh
+```
+之后输入Y就会重启即可。
+
+---
+### Ubuntu16.04更换内核
+
+```
+apt install -y wget && wget --no-check-certificate -O U16.sh https://raw.githubusercontent.com/xratzh/XRSK/master/U16.sh && bash U16.sh
+```
+之后输入Y就会重启即可。
+
+---
+### Debian8更换内核
+
+```
+apt install -y wget && wget --no-check-certificate -O D8.sh https://raw.githubusercontent.com/xratzh/XRSK/master/D8.sh && bash D8.sh
+```
+之后输入Y就会重启即可。
+
+---
 ### CentOS7更换内核
 **第一步：**
 ```
-yum install -y wget && wget --no-check-certificate -O C71.sh https://raw.githubusercontent.com/xratzh/XRSK/master/C71.sh && bash C71.sh
+yum install -y wget && wget --no-check-certificate -O X71.sh https://raw.githubusercontent.com/xratzh/XRSK/master/X71.sh && bash X71.sh
 ```
 之后输入Y就会重启
 
 **第二步：**
 ```
-wget --no-check-certificate -O C72.sh https://raw.githubusercontent.com/xratzh/XRSK/master/C72.sh && bash C72.sh
+wget --no-check-certificate -O X72.sh https://raw.githubusercontent.com/xratzh/XRSK/master/X72.sh && bash X72.sh
 ```
 
 ---
 ### CentOS6更换内核
 **第一步：**
 ```
-yum install -y wget && wget --no-check-certificate -O C61.sh https://raw.githubusercontent.com/xratzh/XRSK/master/C61.sh && bash C61.sh
+yum install -y wget && wget --no-check-certificate -O X61.sh https://raw.githubusercontent.com/xratzh/XRSK/master/X61.sh && bash X61.sh
 ```
 之后输入Y就会重启
 
 **第二步：**
 ```
-wget --no-check-certificate -O C62.sh https://raw.githubusercontent.com/xratzh/XRSK/master/C62.sh && bash C62.sh
+wget --no-check-certificate -O X62.sh https://raw.githubusercontent.com/xratzh/XRSK/master/X62.sh && bash X62.sh
 ```
 
 其余的参考[https://github.com/0oVicero0/serverSpeeder_Install](https://github.com/0oVicero0/serverSpeeder_Install)
