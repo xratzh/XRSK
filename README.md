@@ -51,7 +51,7 @@ yum install -y wget && wget --no-check-certificate -O X61.sh https://raw.githubu
 wget --no-check-certificate -O X62.sh https://raw.githubusercontent.com/xratzh/XRSK/master/X62.sh && bash X62.sh
 ```
 
-其余的参考[https://github.com/0oVicero0/serverSpeeder_Install](https://github.com/0oVicero0/serverSpeeder_Install)
+锐速的安装请参考[https://github.com/0oVicero0/serverSpeeder_Install](https://github.com/0oVicero0/serverSpeeder_Install)
 ### Tips
 - **存在对于其他内核的删除，只保留符合锐速列表内核的行为**
 - **为什么不能一键**，因为Linux内核在4.0后支持不重启更换，但是CentOS和Debian/Ubuntu很多的内核都是4.0-的版本，Debian9和Ubuntu16.04则是4.0+的版本。
