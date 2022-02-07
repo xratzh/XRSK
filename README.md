@@ -70,7 +70,7 @@ wget --no-check-certificate -O X62.sh https://raw.githubusercontent.com/xratzh/X
 锐速的安装请参考[https://github.com/0oVicero0/serverSpeeder_Install](https://github.com/0oVicero0/serverSpeeder_Install)  
 参考有网友备份的脚本使用，一键自动安装
 ```
-bash <(wget --no-check-certificate -qO- https://github.com/Meilinhost/LotServer_Vicer/raw/master/Install.sh) install
+bash <(wget -qO- https://github.com/Aniverse/lotServer/raw/master/lotServer.sh) install
 ```
 
 ### Tips
